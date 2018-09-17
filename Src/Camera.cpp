@@ -2,7 +2,7 @@
 
 Camera::Camera()
 {	
-	position = XMFLOAT3(-8, -15, -12);
+	position = XMFLOAT3(-7, -13, -10);
 	direction = XMFLOAT3(0.5, 1, 1);
 	xRotation = 0;
 	yRotation = 0;

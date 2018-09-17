@@ -89,9 +89,9 @@ void Game::Init()
 	depthDesc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ZERO;
 	device->CreateDepthStencilState(&depthDesc, &particleDepthState);
 
-	emitter = new Emitter(500000,12,0.1f,XMFLOAT4(1,0.2f,0.1f,1),particleVS,particlePS,particleGS,particleCS,srv,sampler, particleBlendState, particleDepthState,device,1);
-	emitter2 = new Emitter(500000, 12, 0.1f, XMFLOAT4(0.2f, 0.2f, 1, 1), particleVS, particlePS, particleGS, particleCS, srv, sampler, particleBlendState, particleDepthState, device, 2);
-	emitter3 = new Emitter(1000, 12, 0.5f, XMFLOAT4(1, 1, 1, 1), particleVS, particlePS, particleGS, particleCS, srv, sampler, particleBlendState, particleDepthState, device, 2);
+	emitter = new Emitter(2000000,12,0.06f,XMFLOAT4(1,0.2f,0.1f,1),particleVS,particlePS,particleGS,particleCS,srv,sampler, particleBlendState, particleDepthState,device,1);
+	emitter2 = new Emitter(2000000, 12, 0.06f, XMFLOAT4(0.2f, 0.2f, 1, 1), particleVS, particlePS, particleGS, particleCS, srv, sampler, particleBlendState, particleDepthState, device, 2);
+	emitter3 = new Emitter(1000, 12, 0.4f, XMFLOAT4(1, 1, 1, 1), particleVS, particlePS, particleGS, particleCS, srv, sampler, particleBlendState, particleDepthState, device, 2);
 		
 	
 }
