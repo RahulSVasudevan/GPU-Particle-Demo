@@ -5,6 +5,6 @@ output is copied to the vertex buffer. The geometry shader expands the vertex in
 
 # Performance
 
-Able to render over 1 million particles at ~250 fps on an AMD Radeon RX580. 10 million particles at ~30 fps.
+Able to render over 4 million particles at 60 fps on an AMD Radeon RX580. 
 
 ![alt text](https://github.com/RahulSVasudevan/GPU-Particle-Demo/blob/master/Screenshots/SpiralGalaxy.PNG)
